@@ -1,0 +1,45 @@
+/**
+ * Ranger de l'écran plus petit au plus grand
+ * On ne précise jamais de média queries pour le mobile
+ */
+
+.cube {
+    width: 100%;
+    height: 300px;
+    background-color: blueviolet;
+}
+
+.rectangle {
+    width: 100%;
+    height: 100px;
+    background-color: deeppink;
+}
+
+img {
+    display: none;
+}
+
+
+/* Version tablette */
+/* Concerne tous les écrans dont la largeur démarre à 768 pixels */
+@media screen and (min-width: 768px) {
+    .cube {
+        background-color: yellow;
+    }
+}
+
+/* Version ordinateur */
+@media screen and (min-width: 1200px) {
+    .cube {
+        height: 500px;
+        background-color: salmon;
+    }
+
+    .rectangle {
+        display: none;
+    }
+
+    img {
+        display: block;
+    }
+}

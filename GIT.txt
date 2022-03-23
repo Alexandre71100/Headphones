@@ -1,0 +1,32 @@
+git config --global user.name "Alexandre DA SILVA"
+
+
+git config --global user.email "alexandre71100@hotmail.com"
+
+ 
+cd Desktop/Premier-Projet
+
+
+git init
+
+git remote add origin https://github.com/Alexandre71100/Premier-Projet.git
+
+git add .
+
+git commit -m "Initial commit" (Description de ce que j'envoie)
+
+git push -u origin master      (Envoie les modifications sur Github)
+
+									
+									Pour ajouter ou modifier un fichier
+
+git add . (La racine du fichier)
+
+git commit -m "Message concernant la modif"   (Message concernant la modif)
+
+git push -u origin master                     (Envoie les modifications sur Github)
+
+
+
+
+
